@@ -3,7 +3,7 @@
 Setup Postgres
 ```
 sudo apt-get install postgresql postgresql-contrib
-sudo -u postgres 
+sudo su - postgres
 psql
 createuser josh -s
 \password josh (enter password: password123)
