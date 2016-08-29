@@ -7,7 +7,7 @@ sudo su - postgres
 psql
 createuser josh -s
 \password josh (enter password: password123)
-createdb testdb
+create database testdb
 ```
 
 Setup cayley
