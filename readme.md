@@ -3,10 +3,11 @@
 Setup Postgres
 ```
 sudo apt-get install postgresql postgresql-contrib
-sudo -u postgres createuser josh -s
-sudo -u postgres psql
+sudo -u postgres 
+psql
+createuser josh -s
 \password josh (enter password: password123)
-sudo -u postgres createdb testdb
+createdb testdb
 ```
 
 Setup cayley
